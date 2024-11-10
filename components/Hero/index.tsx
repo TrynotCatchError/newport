@@ -108,16 +108,16 @@ const Hero = () => {
                   height={21.66}
                   className="absolute -right-6.5 bottom-0 z-1"
                 />
-                <div className=" relative aspect-[100/100] w-full">
+                <div className="relative aspect-[100/100] w-full top-[-150px] h-[650px]">
                   <Image
-                    className="rounded-full shadow-solid-l dark:hidden"
-                    src="/images/hero/hero-image.png (1).png"
+                    className="rounded-full  dark:hidden "
+                    src="http://localhost:3000/_next/image?url=%2Fimages%2Fhero%2Fhero-image.png%20(1).png&w=256&q=75"
                     alt="Hero"
                     fill
                   />
                   <Image
-                    className="rounded-full hidden shadow-solid-l dark:block"
-                    src="/images/hero/hero-image.png (1).png"
+                    className="rounded-full hidden  dark:block top-[-150px]"
+                    src="http://localhost:3000/_next/image?url=%2Fimages%2Fhero%2Fhero-image.png%20(1).png&w=256&q=75"
                     alt="Hero"
                     fill
                   />

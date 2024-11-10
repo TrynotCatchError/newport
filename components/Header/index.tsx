@@ -39,14 +39,14 @@ const Header = () => {
         <div className="flex w-full items-center justify-between xl:w-1/4">
           <a href="/">
             <Image
-              src="/images/logo/karindev-nobg.png"
+              src="http://localhost:3000/_next/image?url=%2Fkarindev-nobg.png&w=256&q=75"
               alt="logo"
               width={119.03}
               height={30}
               className="hidden w-full dark:block"
             />
             <Image
-              src="/images/logo/karindev-nobg.png"
+              src='http://localhost:3000/_next/image?url=%2Fkarindev-nobg.png&w=256&q=75'
               alt="logo"
               width={119.03}
               height={30}
@@ -155,18 +155,13 @@ const Header = () => {
             <ThemeToggler />
 
             <Link
-              href="https://github.com/NextJSTemplates/solid-nextjs"
+              href="https://github.com/TrynotCatchError"
               className="text-regular font-medium text-waterloo hover:text-primary"
             >
-              GitHub Repo 🌟
+             My  GitHub 
             </Link>
 
-            <Link
-              href="https://nextjstemplates.com/templates/solid"
-              className="flex items-center justify-center rounded-full bg-primary px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-primaryho"
-            >
-              Get Pro 🔥
-            </Link>
+         
           </div>
         </div>
       </div>
